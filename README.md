@@ -1,3 +1,4 @@
+```
 This module creates auto scaling group and ELB on AWS account. Below is the usage 
 module "from-git" {
   source	        =	"farrukh90/asg/aws"
@@ -7,3 +8,5 @@ module "from-git" {
   max_size          =   2
   min_size          =   1
 }
+
+```
